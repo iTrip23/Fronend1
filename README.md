@@ -1,2 +1,2 @@
-# Fronend1
+# FrontEnd1
 first frontend challenge
