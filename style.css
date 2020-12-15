@@ -24,6 +24,56 @@ body {
   background-position: bottom -44vh right 45vw, top 55vh left 40vw;
 }
 
+.card-container {
+  width: 90vw;
+  height: 60vh;
+  margin: 20vh auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+h4 {
+  color: var(--dark-gray);
+  font-weight: var(--fw-reg);
+  margin: 0.7em;
+  margin-bottom: 1em;
+}
+
+.card-background {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 35%;
+  margin-bottom: 5.4em;
+}
+
+.profile-picture {
+  margin-top: 6em;
+  border: 0.37em solid white;
+  border-radius: 50%;
+}
+
+span {
+  font-weight: var(--fw-reg);
+  color: var(--dark-gray);
+}
+
+hr {
+  color: var(--dark-gray);
+  height: 1px;
+  margin-bottom: 2em;
+}
+
+.social {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  margin-bottom: 0%;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
