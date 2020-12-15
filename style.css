@@ -21,7 +21,7 @@ body {
     url(images/bg-pattern-bottom.svg);
   background-color: var(--dark-cyan);
   background-repeat: no-repeat;
-  background-position: bottom -44vh right 45vw, top 55vh left 40vw;
+  background-position: bottom 40vh right 45vw, top 55vh left 40vw;
 }
 
 .card-container {
@@ -83,4 +83,16 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
   bottom: 0;
+}
+
+@media (min-width: 1400px) {
+  .card-container {
+    width: 25vw;
+    height: 45vh;
+    margin: 25vh auto;
+  }
+
+  body {
+    background-position: bottom 40vh right 50vw, top 40vh left 55vw;
+  }
 }
